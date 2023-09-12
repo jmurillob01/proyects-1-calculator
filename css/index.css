@@ -1,0 +1,85 @@
+body{
+    margin: 0px; 
+}
+
+#pantalla{
+    background-color: aqua;
+    margin: auto;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora{
+    width: 500px;
+    height: 800px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: rgb(165, 161, 161);
+
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr; */
+
+    /* Sombreado de la calculadora */
+    -webkit-box-shadow: 4px -6px 20px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px -6px 20px 1px rgba(0,0,0,0.75);
+    box-shadow: 4px -6px 20px 1px rgba(0,0,0,0.75);
+}
+
+#pantalla-calculadora{
+    background-color: white;
+    border: 2px solid black;
+
+    border-radius: 10px;
+
+    height: 100px;
+    margin: 30px 20px;
+}
+
+#contenido-calculadora{
+    /* background-color: white; */
+    border-radius: 10px;
+
+    height: 600px;
+    margin: 30px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.contenido-buttons{
+        border: 1px solid black;
+        
+        margin: 10px;
+        border-radius: 50px;
+
+        font-size: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.numbers{
+    background-color: rgb(255, 255, 255);
+}
+
+.power{
+    background-color: rgb(0, 0, 0);
+    color: orange;
+}
+
+.calcs{
+    background-color: rgb(183, 127, 235);
+}
+
+.plas{
+    grid-column: 4 ;
+    grid-row: 4 / span 2;
+}
